@@ -1,5 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <pages>
-  <item uiname="home"></item>
-  <item uiname="product"></item>
+  <main>
+    <item uiname="home"></item>
+    <item uiname="product"></item>
+  </main>
+  <products>
+    <item uiname="help"></item>
+    <item uiname="about"></item>
+  </products>
+
 </pages>
