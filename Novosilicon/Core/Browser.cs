@@ -17,11 +17,7 @@ namespace Novosilicon
         {
             get
             {
-                if (driver == null) ; 
-                
-                   //throw new NullReferenceException("The WebDriver browser instance was not initialized. You should first call the method InitBrowser.");
-                   return driver;
-                                
+                return driver;
             }
             private set
             {
