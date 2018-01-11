@@ -28,7 +28,7 @@ namespace Novosilicon
         {
             
             Browser.Driver.Url = "http://www.drom.ru";
-            IWebElement button = Browser.Driver.FindElement(By.XPath("//button"));
+            IWebElement button = Browser.Driver.FindElement(By.XPath("//a[@class='b-menu__item-link']"));
             button.Click();
             System.Console.WriteLine("Test3");
 
