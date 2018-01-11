@@ -1,5 +1,8 @@
 ﻿using NUnit.Framework;
 using Novosilicon.Core;
+using OpenQA.Selenium.Support;
+using OpenQA.Selenium;
+
 
 namespace Novosilicon
 {
@@ -25,6 +28,8 @@ namespace Novosilicon
         {
             
             Browser.Driver.Url = "http://www.drom.ru";
+            IWebElement button = Browser.Driver.FindElement(By.XPath("//button"));
+            button.Click();
             System.Console.WriteLine("Test3");
 
         }
