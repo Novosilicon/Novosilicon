@@ -20,5 +20,13 @@ namespace Novosilicon
             System.Console.WriteLine("Test2");
 
         }
+        [Test]
+        public void Test3()
+        {
+            
+            Browser.Driver.Url = "http://www.drom.ru";
+            System.Console.WriteLine("Test3");
+
+        }
     }
 }
