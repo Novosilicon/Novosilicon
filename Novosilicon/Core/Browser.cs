@@ -46,7 +46,7 @@ namespace Novosilicon
                 case "Chrome":
                     if (Driver == null)
                     {
-                        driver = new ChromeDriver();
+                        driver = new ChromeDriver(@"D:\Projects\Novosilicon\Test\Novosilicon\webdriver\chromedriver");
                         Drivers.Add("Chrome", Driver);
                     }
                     break;
